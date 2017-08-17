@@ -1,0 +1,5 @@
+@import "../styles/bootstrap/scss/variables";
+
+span {
+  background-color: lighten($blue, 25%);
+}
