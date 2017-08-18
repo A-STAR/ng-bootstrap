@@ -1,5 +1,10 @@
 @import "../styles/bootstrap/scss/variables";
 
 span {
-  background-color: lighten($blue, 25%);
+  background-color: lighten(red, 25%);
+
+  @include media-breakpoint-up(md) {
+    background: green;
+  }
+
 }
