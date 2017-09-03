@@ -5,7 +5,7 @@ span {
   background-color: lighten(red, 25%);
 
   @include media-breakpoint-up(md) {
-    background: green;
+    background: $blue;
   }
 
 }

@@ -21,6 +21,7 @@
       "stylePreprocessorOptions": {
         "includePaths": [
           "../node_modules/bootstrap/scss",
+          "../node_modules/bootstrap/scss/mixins",
           "styles/bootstrap/scss"
         ]
       },
